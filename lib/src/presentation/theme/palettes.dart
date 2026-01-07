@@ -8,6 +8,7 @@ abstract class Palette {
   abstract Color error;
   abstract Color inputBg;
   abstract Color description;
+  abstract Color caption;
 }
 
 class LightPalette extends Palette{
@@ -31,4 +32,7 @@ class LightPalette extends Palette{
 
   @override
   Color description = Color(0xFF7E7E9A);
+
+  @override
+  Color caption = Color(0xFF939396);
 }
